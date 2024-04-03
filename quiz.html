@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="Images/logo-icon.png" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decades of Music</title>
+    <link rel="stylesheet" href="CSS/quiz.css"/>
+    <link rel="stylesheet" href="CSS/style1.css" />
+  </head>
+  <body>
+    <header>
+      <!--Navbar and logo-->
+      <a href="Main page.html" ><img id="logo" src="Images/logo.png" alt="Logo"></a> 
+      <nav>
+        <ul id="navigation">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Comments.html">Comments</a></li>
+          <li><a href="BuyProducts.html">Store</a></li>
+          <li class="active"><a href="quiz.html">Quiz</a></li>
+          <li><a href="StudentDetails.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <br />
+    <div id="summaryModal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Quiz Summary</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="summary" class="summary"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="quiz-container">
+      <h1 style= "font-weight:bold; color:#5cec5c">THE DECADES QUIZ</h1>
+      <div class="question-info">
+        <div id="questionNumber" class="question-number"></div>
+        <div id="countdown" class="countdown"></div>
+      </div>
+
+      <div id="questionText" class="question-text"></div>
+
+      <div id="optionsContainer" class="options-container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="button-container">
+        <button id="previousBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer">
+      <br />
+      <div class="footer-bottom">&copy;Decades Of Music Page Editor | <a href="Kehara.html"> Kehara Subasinghe</a>
+      </div>
+    </footer>
+
+    <script src="JS/quiz.js"></script>
+  </body>
+</html>
