@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/png" href="Images/logo-icon.png" sizes="16x16">
+        <title>Decades of Music</title>
+        <link rel="stylesheet" href="./CSS/Style.css">
+        <link rel="stylesheet" href="CSS/Home.css">
+    </head>
+    <body>
+        <header> <!--Navbar and logo-->
+            <a href="Home.html" ><img id="logo" src="Images/logo-final.png" alt="Decades of Music Logo"></a> 
+            <nav>
+                <ul id="navigation">
+                    <li class="active"><a href="Home.html">Home</a></li>
+                    <li><a href="Comments.html">Comments</a></li>
+                    <li><a href="BuyProducts.html">Store</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="StudentDetails.html">About Us</a></li> 
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <br>
+        
+<h1>Welcome to Decades of Music</h1>
+
+<main>
+    <section class="era-selection">
+      <a href="1990s.html" class="era-card">
+        <div class="era-image">
+          <img src="Images/Artists/nirvana.jpeg" alt="1990s Music">
+        </div>
+        <h2>[RE]Discover the 1990s</h2>
+      </a>
+      <a href="decade2000.html" class="era-card">
+        <div class="era-image">
+          <img src="Images/Artists/2000.jpeg" alt="2000s Music">
+        </div>
+        <h2>[RE]Discover the 2000s</h2>
+      </a>
+      <a href="2010s.html" class="era-card">
+        <div class="era-image">
+          <img src="Images/Artists/2010.jpeg" alt="2010s Music">
+        </div>
+        <h2>[RE]Discover the 2010s</h2>
+      </a>
+    </section>
+  </main>
+
+  <script>
+    // JavaScript code for the hover effect on pictures
+const eraPictures = document.querySelectorAll('.era-selection a');
+
+eraPictures.forEach(picture => {
+  picture.addEventListener('mouseover', () => {
+    picture.classList.add('hover-effect');
+  });
+
+  picture.addEventListener('mouseout', () => {
+    picture.classList.remove('hover-effect');
+  });
+});
+  </script>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer class="footer"><br>
+    <div class="footer-bottom">Page Editor | <a href="Nilusha_Page_Editor.html">Nilusha Muthumala</a></div>
+</footer>
+    </body>
+</html>
