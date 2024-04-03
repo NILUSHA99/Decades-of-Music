@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="Images/logo-icon.png" sizes="16x16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments Form</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/Comments.css">
+    
+</head>
+<body>
+    <header> <!--Navbar and logo-->
+        <a href="Home.html" ><img id="logo" src="Logo/logo.png" alt="Decades of Music Logo"></a> 
+        <nav>
+            <ul id="navigation">
+                <li><a href="Home.html">Home</a></li>
+                <li class="active"><a href="Comments.html">Comments</a></li>
+                <li><a href="BuyProducts.html">Store</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="StudentDetails.html">About Us</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>        
+    <div class="Form-container">
+        <form action="mailto:nilusha200209@gmail.com" method="POST">
+            <h1>We Value Your Feedback!</h1> 
+
+            <fieldset>
+
+                <legend>Personal Information</legend>
+
+                <div class="lable">
+                    <label for="">First Name*</label>
+                    <div class="lable1">
+                        <input type="text" placeholder="first name" required>
+                    </div>
+                </div>
+
+                <div class="lable">
+                    <label for="">Last Name*</label>
+                    <div class="lable1">
+                        <input type="text" placeholder="last name" required>
+                    </div>
+                </div>
+
+                <div class="lable">
+                    <label for="">Email*</label>
+                    <div class="lable1">
+                        <input type="text" placeholder="Personal Email Adress" required>
+                    </div>
+                </div>
+
+                <div class="lable">
+                    <label for="">Phone Number</label>
+                    <div class="lable1">
+                        <input type="text" placeholder="number" required>
+                    </div>
+                </div>
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+
+                <legend>Information</legend>
+
+                <div class="lable">
+                    <label for="">How did you hear about Us?*</label>
+                    
+                        <select name="rating" required>
+                            <option value="" disabled selected>Choose Here!*</option>
+                            <option value="1">Website</option>
+                            <option value="2">Friend</option>
+                            <option value="3">Social Media</option>
+                            <option value="4">TV Advertisment</option>
+                            <option value="5">Web Chat</option>
+                        </select>
+                    
+                </div>
+
+                <div class="lable2">
+                    <label for="">What are the complaints about our website*</label>                      
+                    <textarea name="" id="" cols="60" rows="5"></textarea>
+                </div>
+
+                <div class="lable2">
+                    <label for=""> Do you feel our [product or service] is worth the cost?*</label>
+                    <textarea name="" id="" cols="60" rows="5"></textarea> 
+                </div>
+
+                <div class="lable">
+                    <label for="">How would you rate your in-store visit experience today(0 - 5)?*</label>
+                    
+                        <select name="rating" required>
+                            <option value="" disabled selected>Choose Here!</option>
+                            <option value="1">0</option>
+                            <option value="2">1</option>
+                            <option value="3">2 </option>
+                            <option value="4">3</option>
+                            <option value="5">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    
+                </div>
+            
+
+            </fieldset>
+            
+            <div class="buttons">
+                <input type="reset" name="reset" value="Reset" onclick="showResetMessage()">
+                <input type="submit" name="submit" value="Submit" onclick="showMessage()">
+            </div>            
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <script src="JavaScript/Comments.js"></script>
+    
+    
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br> <br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <!--Back to Top-->
+    <div class="back-to-top">
+        <a id="top" class="top" href="Comments.html"><b>TOP</b></a>
+    </div>
+
+    <footer class="footer"><br>
+        <div class="footer-bottom">&copy;Decades of Music  |  Page Editor - <a href="Nilusha_Page_Editor.html"> Nilusha Muthumala</a></div>
+    </footer>
+    <br>
+</body>
+
+
+</html>
