@@ -1,0 +1,199 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+fieldset{
+    padding: 60px 60px;
+    padding-bottom: 10px;
+}
+
+legend{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+
+}
+
+.Form-container{
+    height: 600px;
+    width: 600px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form-container form{
+    height: 600px; 
+    width: 1000px;
+    display:grid;
+    padding: 30px;
+    text-transform: capitalize;
+    border-radius: 0px;  
+}
+
+.Form-container form h1{
+    text-align: center;
+    font-size:50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.Form-container form label{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding:3px 0;
+    margin: 5px 0;
+    border: none;
+    background-color: transparent;
+}
+
+.Form-container form input, textarea{
+    padding: 8px;
+    border-radius: 0px;
+    margin: 5px 0 5px 0;
+    border: none;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.Form-container form input:focus,
+.Form-container form textarea:focus {
+    outline: none;
+    border-color: transparent;
+}
+
+.lable{
+    display: flex;
+    text-align: left; 
+    justify-content: center; 
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    flex-direction: column;
+    width: 720px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+
+}
+
+/* .lable1 input,textarea{
+    flex: 1;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(92, 88, 88);
+    color: white;
+} */
+
+.lable1{
+    width: 700px;
+    height: 90px;
+    margin-top: 1px;
+    padding-bottom: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+    
+}
+
+.lable1 input::placeholder, textarea::placeholder{
+    line-height: 90px;
+    align-items: center;
+}
+
+
+
+.lable2{
+    display: flex;
+    text-align: left; 
+    justify-content: center; 
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    flex-direction: column;
+    width: 720px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.lable21{
+    width: 570px;
+    height: 90px;
+    background-color:  rgb(255, 255, 255);
+    margin-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+
+}
+
+.Form-container form input[type="submit"], .Form-container form input[type="reset"]{
+    width: 70px;
+    margin-top: 20px;
+    background: color #1e667d;
+    color: #000000;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.Form-container form input[type="submit"]:hover, .Form-container form input[type="reset"]:hover{
+    background-color:#5CEC5C;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons input[type="submit"],
+.buttons input[type="reset"] {
+    width: 120px;
+}
+
+.lable1 select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color:  rgb(92, 88, 88);
+    color: rgb(255, 255, 255);
+}
+
+.lable1 select:focus {
+    outline: none;
+    border-color: transparent;
+}
+
+.lable2 textarea{
+    padding: 15px;
+    outline: none;
+    resize: none;  
+}
+
+.lable1 input:focus::placeholder,
+.lable2 textarea:focus::placeholder {
+    transform: translateY(-20px);
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.lable select{
+    width: 150px;
+    height: 20px;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 10px;
+}
